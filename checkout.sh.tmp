@@ -1,5 +1,0 @@
-time=$(date +%s)
-waittime=$(($time % 13))
-sleep "$waittime"m
-
-curl -L -b cookies2.txt  -G -d "weidu=39.97943495591847&jingdu=116.32850166009715&type=checkout&token=af0209278a35f04836a1b13713d2fed6"  http://159.226.29.10/CnicCheck/CheckServlet
