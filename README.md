@@ -3,10 +3,10 @@ cnic单位 打卡工具app（“我来我往”）自动定时打卡shell脚本
 
 
 ## 使用步骤方法
-### 1.在userNamePassword中添加需要打卡的用户和密码
+### 1.在userNamePassword.txt中添加需要打卡的用户和密码
 ```
 #例如 添加邮箱用户 Tom@email.cn 密码：xxxxx
-echo "userName=Tom@email.cn2&password=xxxxx" > 
+echo "userName=Tom@email.cn2&password=xxxxx" > userNamePassword.txt  
 ```
 ### 2.设置定时任务 crontab -e
 ```
